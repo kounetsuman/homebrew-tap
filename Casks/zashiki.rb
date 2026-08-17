@@ -8,7 +8,8 @@ cask "zashiki" do
   desc "Desktop cockpit that brings your Claude Code sessions into one window"
   homepage "https://github.com/kounetsuman/zashiki"
 
-  depends_on arch: :arm64
+  depends_on arch:  :arm64
+  depends_on macos: ">= :big_sur"
 
   app "Zashiki.app"
 
