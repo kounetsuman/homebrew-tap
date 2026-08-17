@@ -12,8 +12,8 @@ cask "zashiki" do
 
   app "Zashiki.app"
 
-  uninstall quit:      "io.github.kounetsuman.zashiki",
-            launchctl: "io.github.kounetsuman.zashiki"
+  uninstall launchctl: "io.github.kounetsuman.zashiki",
+            quit:      "io.github.kounetsuman.zashiki"
 
   zap trash: [
     "~/.zashiki",
