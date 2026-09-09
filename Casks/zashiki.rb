@@ -1,6 +1,6 @@
 cask "zashiki" do
-  version "0.25.0"
-  sha256 "39d286e66c68d18ed8f44ab076b6ff60be3f63f3ef0cb3a91ca8e0db98696edc"
+  version "0.26.0"
+  sha256 "9ad2db353237dcad3eedb3157f75c345de7bfd17cb09751abaa7235491d92778"
 
   url "https://github.com/kounetsuman/zashiki/releases/download/v#{version}/Zashiki_#{version}_aarch64.dmg",
       verified: "github.com/kounetsuman/zashiki/"
